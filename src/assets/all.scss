@@ -1,0 +1,117 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../assets/helpers/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.wrap {
+  overflow: hidden;
+  background-image: url(https://images.unsplash.com/photo-1515549832467-8783363e19b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80);
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.banner{
+  height: calc(100vh - 100px);
+}
+// .main{
+//   background: #fff;
+//   color: #000;
+// }
+.navbar-logo a{
+  text-decoration: none;
+  color: #000;
+}
+.topic{
+  height: calc(100vh - 150px);
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+}
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgb(79, 79, 79);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+.lb-data {
+  color: rgb(240, 104, 104);
+}
+
+
+.nav-item {
+  margin: 0;
+  list-style: none;
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+    &:hover, &:active, &:focus {
+      background-color: rgba(black, .05);
+    }
+    // &.active {
+    //   box-shadow: 0 -2px 0 #000;
+    // }
+  }
+
+  // style
+  // .nav-accent {
+  //   color: white;
+  //   background-color: #000;
+  //   &:hover, &:active, &:focus {
+  //     color: white;
+  //     background-color: darken(#000, 15%);
+  //   }
+  //   &.active {
+  //     box-shadow: 0 -2px 0 darken(#000, 15%);
+  //   }
+  // }
+}
+.subTitle{
+  font-size: 32px;
+  line-height: 45px;
+  border-bottom: 1px solid #000;
+  span{
+    color: #A00404;
+    font-size: 24px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+  }
+}
+.subTitle-white{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  span{
+    color: #fff;
+  }
+}
+.darkblue{
+  background: #415165;
+}
