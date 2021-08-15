@@ -16,9 +16,6 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/about">建築賞心</router-link>
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/vueslick">周邊環境</router-link>
-            </li>
           </ul>
         </div>
       </div>

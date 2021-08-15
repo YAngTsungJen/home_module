@@ -78,51 +78,6 @@
                   <p>得天獨厚小環境，橫掃大青埔，公園、水岸、學區、商城、捷運、高鐵，你想要的全都有。全新落成，入主即可享受萬坪公園第一排，水岸第一景，豪宅大師黃永洪擘劃建築，飯店級公設，輕鬆坐擁新森活。</p>
                 </div>
                 <div class="col-md-6 py-4">
-                  <div class="swiper-container mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-1.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-1.jpeg" alt="house-1" />
-                        </a>
-                      </div>
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-2.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-2.jpeg" alt="house-2" />
-                        </a>
-                      </div>
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-3.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-3.jpeg" alt="house-3" />
-                        </a>
-                      </div>
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-4.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-4.jpeg" alt="house-4" />
-                        </a>
-                      </div>
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-5.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-5.jpeg" alt="house-5" />
-                        </a>
-                      </div>
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-6.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-6.jpeg" alt="house-6" />
-                        </a>
-                      </div>
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-7.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-7.jpeg" alt="house-7" />
-                        </a>
-                      </div>
-                      <div class="swiper-slide">
-                        <a class="example-image-link" href="../assets/image/house-8.jpeg" data-lightbox="house" data-title="房屋">
-                          <img class="example-image" src="../assets/image/house-8.jpeg" alt="house-8" />
-                        </a>
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -183,51 +138,7 @@
       <h3>青埔核心 萬坪森態公園宅</h3>
       <p>戶戶享受水岸河景，無限棟距。萬坪樹海當鄰居，下樓就是公園，一趟環湖公園森林漫步，享受陽光普照下的甘甜。</p>
     </div>
-    <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-1.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-1.jpeg" alt="house-1" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-2.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-2.jpeg" alt="house-2" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-3.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-3.jpeg" alt="house-3" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-4.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-4.jpeg" alt="house-4" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-5.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-5.jpeg" alt="house-5" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-6.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-6.jpeg" alt="house-6" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-7.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-7.jpeg" alt="house-7" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-8.jpeg" data-lightbox="house" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-8.jpeg" alt="house-8" />
-          </a>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
+    <Swiper></Swiper>
     <div class="topic bg-cover" style="background: url(https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80) no-repeat;">
     </div>
     <div class="content container text-center py-5" id="environment">
@@ -235,60 +146,15 @@
       <h3>青埔核心 萬坪森態公園宅</h3>
       <p>戶戶享受水岸河景，無限棟距。萬坪樹海當鄰居，下樓就是公園，一趟環湖公園森林漫步，享受陽光普照下的甘甜。</p>
     </div>
-    <div class="swiper-container mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-9.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-9.jpeg" alt="house-9" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-10.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-10.jpeg" alt="house-10" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-11.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-11.jpeg" alt="house-11" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-12.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-12.jpeg" alt="house-12" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-13.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-13.jpeg" alt="house-13" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-14.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-14.jpeg" alt="house-14" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-15.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-15.jpeg" alt="house-15" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-16.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-16.jpeg" alt="house-16" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-17.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-17.jpeg" alt="house-17" />
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="example-image-link" href="../assets/image/house-18.jpeg" data-lightbox="home" data-title="房屋">
-            <img class="example-image" src="../assets/image/house-18.jpeg" alt="house-18" />
-          </a>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
+    <Swiper></Swiper>
   </div>
 </template>
+
+<script>
+import Swiper from '@/components/Swiper.vue'
+export default {
+  components: {
+    Swiper
+  }
+}
+</script>
