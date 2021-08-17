@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <swiper :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :slidesPerView="'auto'" :coverflowEffect='{
+  <div class="mb-5">
+    <swiper :autoplay='{
+    "delay": 1500,
+    "disableOnInteraction": false
+  }' :effect="'coverflow'" :grabCursor="true" :centeredSlides="true" :slidesPerView="'auto'" :coverflowEffect='{
     "rotate": 50,
     "stretch": 0,
     "depth": 100,
@@ -8,14 +11,22 @@
     "slideShadows": true
   }' :pagination="true" class="mySwiper">
       <swiper-slide v-for="(src, index) in imgs" :key="index">
-        <img :src="src"/>
-        <Lightbox></Lightbox>
+        <img @click="showMultiple(index)" :src="src"/>
       </swiper-slide>
     </swiper>
+    <vue-easy-lightbox
+      scrollDisabled
+      escDisabled
+      moveDisabled
+      :visible="visible"
+      :imgs="imgs"
+      :index="index"
+      @hide="handleHide"
+    ></vue-easy-lightbox>
   </div>
 </template>
 <script>
-import Lightbox from '@/components/Lightbox.vue'
+import VueEasyLightbox from 'vue-easy-lightbox'
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue'
 // Import Swiper styles
@@ -34,7 +45,7 @@ export default {
   components: {
     Swiper,
     SwiperSlide,
-    Lightbox
+    VueEasyLightbox
   },
   data () {
     return {
@@ -48,7 +59,22 @@ export default {
         'https://images.unsplash.com/photo-1629015926131-5a346e14855f?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
         'https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
         'https://images.unsplash.com/photo-1628951628200-ef62c0999fae?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
-      ]
+      ],
+      visible: false,
+      index: 0 // default: 0
+    }
+  },
+  methods: {
+    showMultiple (index) {
+      // allow mixing
+      this.index = index // index of imgList
+      this.show()
+    },
+    show () {
+      this.visible = true
+    },
+    handleHide () {
+      this.visible = false
     }
   }
 }
