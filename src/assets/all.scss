@@ -22,7 +22,7 @@
   color: #000;
 }
 .topic{
-  height: calc(100vh - 150px);
+  height: calc(100vh - 50px);
 }
 .swiper-container {
   width: 100%;
@@ -74,23 +74,7 @@ img {
     &:hover, &:active, &:focus {
       background-color: rgba(black, .05);
     }
-    // &.active {
-    //   box-shadow: 0 -2px 0 #000;
-    // }
   }
-
-  // style
-  // .nav-accent {
-  //   color: white;
-  //   background-color: #000;
-  //   &:hover, &:active, &:focus {
-  //     color: white;
-  //     background-color: darken(#000, 15%);
-  //   }
-  //   &.active {
-  //     box-shadow: 0 -2px 0 darken(#000, 15%);
-  //   }
-  // }
 }
 .subTitle{
   font-size: 32px;

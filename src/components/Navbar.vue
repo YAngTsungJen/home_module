@@ -2,8 +2,8 @@
   <div class="banner bg-cover position-relative" style="background: center / cover no-repeat linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1449844908441-8829872d2607?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);">
     <nav class="navbar navbar-expand-md navbar-dark bg-transparent py-2 px-2">
       <div class="container-fluid container-md px-0 px-md-2">
-        <h1 class="navbar-logo text-white">
-          捷登開發
+        <h1 class="navbar-logo">
+          <router-link class="text-white" to="/">捷登開發</router-link>
         </h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -11,10 +11,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item h3">
-              <router-link class="nav-link" to="/">建案簡介</router-link>
-            </li>
-            <li class="nav-item h3">
-              <router-link class="nav-link" to="/about">建築賞心</router-link>
+              <a class="nav-link">建案簡介</a>
             </li>
           </ul>
         </div>
@@ -39,6 +36,13 @@ export default {
       window.scrollTo({
         top: num,
         behavior: 'smooth'
+      })
+    },
+    scrollToMyEl () {
+      const myEl = this.$refs.myEl || this.$el || document.getElementById('#title')
+      this.$smoothScroll({
+        scrollTo: myEl, // scrollTo is also allowed to be number
+        hash: '#sampleHash' // required if updateHistory is true
       })
     }
   }
