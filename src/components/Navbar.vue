@@ -5,7 +5,7 @@
         <h1 class="navbar-logo">
           <router-link :class="classList['text-color']" to="/">捷登開發</router-link>
         </h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button @click="mobileBtn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -40,7 +40,7 @@ export default {
       classList: {
         'bg-color': 'bg-secondary',
         'text-color': 'text-primary',
-        'i-color': ''
+        'navbar-color': ''
       }
     }
   },
