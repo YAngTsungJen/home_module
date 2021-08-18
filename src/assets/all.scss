@@ -13,10 +13,6 @@
 .banner{
   height: calc(100vh);
 }
-// .main{
-//   background: #fff;
-//   color: #000;
-// }
 .navbar-logo a{
   text-decoration: none;
   color: #000;
@@ -97,4 +93,10 @@ img {
 }
 .darkblue{
   background: #415165;
+}
+.opacity-90{
+  opacity: 90%;
+}
+.pointer{
+  cursor: pointer;
 }

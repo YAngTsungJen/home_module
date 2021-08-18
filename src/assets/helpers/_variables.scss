@@ -18,6 +18,7 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 $transparent: transparent;
+$green-tree: #1f6d25;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -80,8 +81,8 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
+  "primary":    #377a3b,//$primary,
+  "secondary":  #e7eae3,//$secondary,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -89,6 +90,7 @@ $theme-colors: (
   "light":      $light,
   "dark":       $dark,
   "transparent": $transparent,
+  "green-tree": $green-tree
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -394,10 +396,13 @@ $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) 
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  5: 5%,
+  15: 15%,
   25: 25%,
   40: 40%,
   50: 50%,
   75: 75%,
+  78: 78%,
   100: 100%
 ) !default;
 // scss-docs-end position-map

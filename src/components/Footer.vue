@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark p-3">
+  <div class="bg-primary p-3">
     <div class="container d-flex justify-content-between">
       <div class="d-flex">
         <h2 class="h3 text-white mb-0 py-2 py-md-4">捷登開發</h2>

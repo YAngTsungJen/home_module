@@ -3,7 +3,7 @@
     <div class="main py-4">
       <div class="container">
         <p>桃園市 中壢區</p>
-        <h2 id="title">
+        <h2 class="title">
           國泰川青
         </h2>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -23,46 +23,48 @@
                   <p>得天獨厚小環境，橫掃大青埔，公園、水岸、學區、商城、捷運、高鐵，你想要的全都有。全新落成，入主即可享受萬坪公園第一排，水岸第一景，豪宅大師黃永洪擘劃建築，飯店級公設，輕鬆坐擁新森活。</p>
                 </div>
                 <div class="col-md-6 py-4">
-                  <table class="table text-dark table-bordered bg-transparent">
-                    <thead>
-                      <tr>
-                        <th scope="col">建案類別</th>
-                        <th scope="col">預售屋</th>
-                        <th scope="col">貴賓專線</th>
-                        <th scope="col">0948484223</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">格局規劃</th>
-                        <td>2-3房、樓中樓</td>
-                        <td>坪數規劃</td>
-                        <td>23-42坪</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">樓層規劃</th>
-                        <td>B4-15F</td>
-                        <td>建築設計</td>
-                        <td>黃永沃建築師事務所</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">基地位置</th>
-                        <td colspan="4">桃園市中壢區永昌路</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">接待中心</th>
-                        <td colspan="4">桃園市中壢區永昌路168號</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">基地位置</th>
-                        <td colspan="4">
-                          <a href="https://goo.gl/maps/wcaG93bZoFoYRASp6" target="_blank">
-                            <img src="../assets/image/location.png" width="24" height="24" alt="">
-                          </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="table-responsive-md">
+                    <table class="table text-dark table-bordered bg-transparent">
+                      <thead>
+                        <tr>
+                          <th scope="col">建案類別</th>
+                          <th scope="col">預售屋</th>
+                          <th scope="col">貴賓專線</th>
+                          <th scope="col">0948484223</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">格局規劃</th>
+                          <td>2-3房、樓中樓</td>
+                          <td>坪數規劃</td>
+                          <td>23-42坪</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">樓層規劃</th>
+                          <td>B4-15F</td>
+                          <td>建築設計</td>
+                          <td>黃永沃建築師事務所</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">基地位置</th>
+                          <td colspan="4">桃園市中壢區永昌路</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">接待中心</th>
+                          <td colspan="4">桃園市中壢區永昌路168號</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">基地位置</th>
+                          <td colspan="4">
+                            <a href="https://goo.gl/maps/wcaG93bZoFoYRASp6" target="_blank">
+                              <img src="../assets/image/location.png" width="24" height="24" alt="">
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -94,7 +96,7 @@
       <h3>青埔核心 萬坪森態公園宅</h3>
       <p>戶戶享受水岸河景，無限棟距。萬坪樹海當鄰居，下樓就是公園，一趟環湖公園森林漫步，享受陽光普照下的甘甜。</p>
     </div>
-    <div class="topic mt-5" style="background: center / cover no-repeat url(https://img1.591.com.tw/house/2020/07/17/159497934576311003.jpg!560x420.water3.jpg);">
+    <div class="topic mt-5" style="background: center / cover no-repeat url(http://www.broshood.com/pr20/img/3-4.jpg);">
     </div>
     <div class="content container text-center py-5">
       <h2>周邊環境</h2>
@@ -102,14 +104,17 @@
       <p>戶戶享受水岸河景，無限棟距。萬坪樹海當鄰居，下樓就是公園，一趟環湖公園森林漫步，享受陽光普照下的甘甜。</p>
     </div>
     <Swiper></Swiper>
+    <Scroll></Scroll>
   </div>
 </template>
 
 <script>
 import Swiper from '@/components/Swiper.vue'
+import Scroll from '@/components/Scroll.vue'
 export default {
   components: {
-    Swiper
+    Swiper,
+    Scroll
   }
 }
 </script>
