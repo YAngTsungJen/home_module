@@ -96,7 +96,7 @@
       <h3>青埔核心 萬坪森態公園宅</h3>
       <p>戶戶享受水岸河景，無限棟距。萬坪樹海當鄰居，下樓就是公園，一趟環湖公園森林漫步，享受陽光普照下的甘甜。</p>
     </div>
-    <div class="topic mt-5" style="background: center / cover no-repeat url(http://www.broshood.com/pr20/img/3-4.jpg);">
+    <div class="topic mt-5" style="background: center / cover no-repeat url(https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80);">
     </div>
     <div class="content container text-center py-5">
       <h2>周邊環境</h2>
