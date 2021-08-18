@@ -71,6 +71,9 @@ export default {
   },
   mounted () {
     window.addEventListener('scroll', this.scrollFunction)
+  },
+  unmounted () {
+    window.removeEventListener('scroll', this.scrollFunction)
   }
 }
 </script>
