@@ -11,10 +11,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item h4">
-              <a class="nav-link pointer" :class="classList['text-color']" @click="scrollToTop(700)">建案簡介<span class="d-none d-lg-inline-block pb-1 ms-2" :class="classList['text-color']">|</span></a>
+              <a class="nav-link pointer" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" :class="classList['text-color']" @click="scrollToTop(700)">建案簡介<span class="d-none d-lg-inline-block pb-1 ms-2" :class="classList['text-color']">|</span></a>
             </li>
             <li class="nav-item h4">
-              <a class="nav-link pointer" :class="classList['text-color']" @click="scrollToTop(2300)">周邊環境</a>
+              <a class="nav-link pointer" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" :class="classList['text-color']" @click="scrollToTop(2300)">周邊環境</a>
             </li>
           </ul>
         </div>
