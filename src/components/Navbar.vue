@@ -1,7 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-md fixed-top py-2 px-2" :class="[classList['bg-color'], classList['navbar-color']]">
-      <div class="container-fluid container-md opacity-9 px-0 px-md-2">
+    <nav class="navbar navbar-expand-md opacity-90 fixed-top py-2 px-2" :class="[classList['bg-color'], classList['navbar-color']]">
+      <div class="container-fluid container-md px-0 px-md-2">
         <h1 class="navbar-logo">
           <router-link :class="classList['text-color']" to="/">捷登開發</router-link>
         </h1>
@@ -20,7 +20,7 @@
         </div>
       </div>
     </nav>
-    <div class="banner bg-cover position-relative" style="background: center / cover no-repeat linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1449844908441-8829872d2607?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);">
+    <div class="banner position-relative" style="background: center / cover no-repeat linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1449844908441-8829872d2607?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);">
       <div class="d-flex justify-content-center">
         <h2 class="h1 text-white text-center position-absolute top-25 ">不變的承諾，在台灣最美好的土地上扎根</h2>
         <h3 class="h4 text-white text-center position-absolute top-40">以追求永恆、前瞻的建築為理念，<br>
