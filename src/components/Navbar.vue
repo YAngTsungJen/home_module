@@ -1,7 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-md fixed-top opacity-9 py-2 px-2" :class="[classList['bg-color'], classList['navbar-color']]">
-      <div class="container-fluid container-md px-0 px-md-2">
+    <nav class="navbar navbar-expand-md fixed-top py-2 px-2" :class="[classList['bg-color'], classList['navbar-color']]">
+      <div class="container-fluid container-md opacity-9 px-0 px-md-2">
         <h1 class="navbar-logo">
           <router-link :class="classList['text-color']" to="/">捷登開發</router-link>
         </h1>
